@@ -13,7 +13,8 @@
       "build": "tsdx build",
       "test": "tsdx test --env=jsdom",
       "docz:dev": "docz dev",
-      "docz:build": "docz build"
+      "docz:build": "docz build",
+      "postversion": "git push && git push --tags"
    },
    "dependencies": {
       "@core-ds/icons": "^0.6.0",
