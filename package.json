@@ -1,0 +1,61 @@
+{
+   "name": "@core-ds/components",
+   "version": "0.1.0",
+   "main": "dist/index.js",
+   "umd:main": "dist/core-dscomponents.umd.production.js",
+   "module": "dist/core-dscomponents.es.production.js",
+   "typings": "dist/index.d.ts",
+   "files": [
+      "dist"
+   ],
+   "scripts": {
+      "start": "tsdx watch",
+      "build": "tsdx build",
+      "test": "tsdx test --env=jsdom",
+      "docz:dev": "docz dev",
+      "docz:build": "docz build"
+   },
+   "peerDependencies": {
+      "react": ">=16",
+      "styled-components": ">=4"
+   },
+   "husky": {
+      "hooks": {
+         "pre-commit": "pretty-quick --staged"
+      }
+   },
+   "jest": {
+      "testMatch": [
+         "**/__tests__/**/*.[jt]s?(x)",
+         "**/?(*.)+(spec|test).[jt]s?(x)"
+      ]
+   },
+   "prettier": {
+      "printWidth": 80,
+      "semi": true,
+      "singleQuote": true,
+      "trailingComma": "es5",
+      "tabWidth": 3
+   },
+   "devDependencies": {
+      "@types/jest": "^24.0.13",
+      "@types/react": "^16.8.19",
+      "@types/react-dom": "^16.8.4",
+      "@types/styled-components": "^4.1.16",
+      "docz": "^1.2.0",
+      "docz-theme-default": "^1.2.0",
+      "husky": "^2.4.0",
+      "prettier": "^1.17.1",
+      "pretty-quick": "^1.11.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "styled-components": "^4.3.0",
+      "tsdx": "^0.6.1",
+      "tslib": "^1.9.3",
+      "typescript": "^3.5.1"
+   },
+   "dependencies": {
+      "@core-ds/icons": "^0.6.0",
+      "@core-ds/primitives": "^0.12.1"
+   }
+}
