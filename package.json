@@ -15,6 +15,10 @@
       "docz:dev": "docz dev",
       "docz:build": "docz build"
    },
+   "dependencies": {
+      "@core-ds/icons": "^0.6.0",
+      "@core-ds/primitives": "^0.12.1"
+   },
    "peerDependencies": {
       "react": ">=16",
       "styled-components": ">=4"
@@ -54,8 +58,8 @@
       "tslib": "^1.9.3",
       "typescript": "^3.5.1"
    },
-   "dependencies": {
-      "@core-ds/icons": "^0.6.0",
-      "@core-ds/primitives": "^0.12.1"
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/iFixit/core-components.git"
    }
 }
