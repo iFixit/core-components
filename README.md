@@ -2,6 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/@core-ds/components.svg?style=flat-square)](https://www.npmjs.com/package/@core-ds/components)
 
+## Figma file reference
+All of the components should be based off of the master **[Figma document](https://www.figma.com/file/UkZgcOkzBm9HtR8UIkF4Pupb/Core-Components?node-id=22%3A60)**
+
+
 ## Installation
 
 ```shell
